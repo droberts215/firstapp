@@ -1,9 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
 
-function Header() {
-  return <h1>Hello world</h1>;
-}
+
 
 function App() {
   return <Header />
