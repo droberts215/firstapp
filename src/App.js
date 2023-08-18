@@ -4,7 +4,12 @@ import Header from './components/Header';
 
 
 function App() {
-  return <Header />
+  return (
+    <div className="App">
+      <Header firstName="Bob" />
+      <Header firstName="Jack" />
+    </div>
+  )
 }
 
 export default App;
